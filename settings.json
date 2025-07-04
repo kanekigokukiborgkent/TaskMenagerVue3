@@ -1,0 +1,36 @@
+{
+    // Vite Extension Settings
+    "vite.autoStart": false,
+    "vite.showTerminal": false,
+    "vite.pingInterval": 500,
+    "vite.open": false,
+    "vite.notifyOnStarted": false,
+    "vite.maximumTimeout": 10000,
+  
+    // Prettier Settings
+    "editor.formatOnSave": false,
+    "prettier.disableLanguages": ["vue", "javascript", "typescript"],
+  
+    // ESLint (opțional)
+    "eslint.format.enable": false,
+  
+    // Vue Specific
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    // TypeScript & JavaScript
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    // General VS Code Tweaks
+    "files.autoSave": "off",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": false
+    }
+  }
+  
