@@ -64,7 +64,8 @@
 
                       <!-- <v-checkbox label="Checkbox"></v-checkbox> -->
                       <div class="partActions">
-                        <v-btn color="red" @click="clearFilters()">Clear Filters</v-btn
+                        <v-btn color="red" @click="clearFilters()"
+                          >Clear Filters</v-btn
                         >
                         <v-btn color="primary" @click="applyFilters()"
                           >Apply Filters</v-btn
